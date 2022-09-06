@@ -1,0 +1,6 @@
+/* MAX MEDIUM */
+@media (max-width: 991.98px) { 
+  #header .navbar-collapse {
+    width: 100%;
+  }
+}

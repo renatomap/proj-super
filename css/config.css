@@ -1,0 +1,16 @@
+:root {
+  --color-primary: #5173C2;
+  --color-secondary: #F4BCD6;
+  --color-tertiary: #E2AE3C;
+  --color-quaternary: #E86142;
+}
+
+.row {
+  --bs-gutter-x: -7.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -.5);
+  margin-left: calc(var(--bs-gutter-x) * -.5);
+}
